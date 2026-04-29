@@ -1,0 +1,38 @@
+.card {
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    height: 100%;
+    background: #181818 !important;
+  }
+.card-content {
+    text-align: left;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+  }
+.card-title {
+    font-size: 1em;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1em;
+  }
+.card-time {
+    font-size: 1em;
+    font-weight: 400;
+    color: #d1d5da;
+    line-height: 1em;
+  }
+  
+.link {
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+@media screen and (max-width: 600px) {
+  .card-content {
+      text-align: left;
+      padding-left: 2px !important;
+      margin-left: 2px !important;
+    }
+  }
+  

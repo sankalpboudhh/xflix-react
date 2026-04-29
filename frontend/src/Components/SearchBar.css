@@ -1,0 +1,44 @@
+.search-bar {
+    display: flex;
+  }
+  
+.search-mobile {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+  height: 2rem;
+  border: 1px solid #444d56;
+  box-sizing: border-box;
+  border-radius: 3px;
+  color: rgba(255, 255, 255, 0.87);
+  background: #121212;
+  flex-grow: 2;
+}
+.search-mobile:focus {
+  outline: none;
+  border: 0.2px solid #3e6ca8;
+}
+
+
+.search-icon-mobile {
+  font-size: 16px;
+  width: 3.93rem;
+  height: 2rem;
+  margin-left: 0.1px;
+  border: 1px solid #444D56;
+  box-sizing: border-box;
+  border-radius: 0px 3px 3px 0px;
+  background: #313131;
+  cursor: pointer;
+}
+
+
+.search-icon-mobile:active {
+  background-color: #080300;
+}
+@media screen and (min-width: 600px) {
+  .search-bar {
+    display: none;
+  }
+}
